@@ -1,0 +1,72 @@
+<style>
+body {background-color: orange; border: 13px solid red}
+body {background-color: rgb(230, 216, 176); border: 13px solid red;padding: 70px;}
+h1   {color: rgba(4, 38, 88, 0.945);text-align:center;font-family:Georgia;border-style: solid;}
+p    {color: red;  text-align:left;}
+h3   {color: rgb(255, 0, 0);text-align:center;font-size: 35px}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 10;
+  width: 20%;
+  background-color: rgb(255, 254, 205);
+  float: right;
+  height: 100%; /* Full height */; */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+
+}
+
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+h6 {
+  color: rgb(52, 45, 68);text-align:center;font-family:Big Caslon;
+}
+#ChessP {
+  text-align: center;
+  color: rgb(59, 9, 9);
+  font-size:24px
+}
+#NNP {
+  text-align: center;
+  color: rgb(59, 9, 9);
+  font-size:24px;
+
+}
+
+.Center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+.Text{
+  font-size:24px;
+}
+
+
+
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 170px;
+  -webkit-border-image: url(https://media.tenor.com/images/bb813e0066d3f1b1b93e417b25b35430/tenor.gif/)
+  -o-border-image: url(https://media.tenor.com/images/bb813e0066d3f1b1b93e417b25b35430/tenor.gif) 30 round;
+  border-image: url(https://media.tenor.com/images/bb813e0066d3f1b1b93e417b25b35430/tenor.gif);
+  border-image-repeat: repeat;
+  border-image-width: 1000px;
+}
+</style>
